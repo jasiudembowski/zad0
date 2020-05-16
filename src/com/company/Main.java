@@ -20,6 +20,11 @@ public class Main {
         me.firstName="Jan";
         me.lastName="Dembowski";
         me.pet = dog;
+        Animal cat = new Animal("cat");
+        cat.feed();
+        cat.takeForAWalk();
+        cat.takeForAWalk();
+        cat.takeForAWalk();
 
 
     }
